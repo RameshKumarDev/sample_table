@@ -3,43 +3,35 @@
 	<head>
 		<title>tables</title>
 		<link rel="icon" type="image/x-icon" href="./images/table.png">
-		<style>
-			table,th,td {
-				padding:20px;
-				}
-			th,td {
-				border:1px solid steelblue;
-				border-radius:10px;
-				}
-			td:hover{
-			background-color:cornflowerblue;
-				}
-			th:hover{
-			background-color:cornflowerblue;
-				}
-			body{
-			background-color:ghostwhite;}
-			colgroup{
-				background-color:beige;}
-		
-		</style>
+		<link rel="stylesheet" href="./css/styles.css">
+		<link rel="stylesheet" href="./css/font-awesome.min.css">
 	</head>
 	<body>
 		<table>
 			<colgroup>
 				<col span="1" >
 			</colgroup>
-			<caption style="color:dodgerblue"><b><u>Sample table<b><u></caption>
+			<caption style="color:dodgerblue"><h1><i class="fa fa-table  fa-lg" aria-hidden="true"></i> Sample table</h1></caption>
 			<tr>
-				<th>heading1</th>
-				<th>heading2</th>
-				<th>heading3</th>
-				<th>heading4</th>
-				<th>heading5</th>
+				<th>
+					<i class="fa fa-adjust" aria-hidden="true"></i> heading1
+				</th>
+				<th>
+					<i class="fa fa-spinner fa-spin fa-lg fa-fw"></i><span class="sr-only">Loading...</span> heading2
+				</th>
+				<th>
+					<i class="fa fa-circle-o-notch fa-spin fa-lg fa-fw"></i><span class="sr-only">Loading...</span> heading3
+				</th>
+				<th>
+					<i class="fa fa-shield fa-rotate-270 fa-lg"></i> heading4
+				</th>
+				<th>
+					<i class="fa fa-pie-chart fa-lg" aria-hidden="true"></i> heading5
+				</th>
 				
 			</tr>
 			<tr>
-				<td colspan="2">description1</td>
+				<td colspan="2"> description1</td>
 				<!--<td>description2</td> -->
 				<td>description3</td>
 				<td>description4</td>
@@ -72,6 +64,6 @@
 			</tr>
 			
 		</table>
-		
+	
 	</body>
 </html>

@@ -1,0 +1,25 @@
+*{
+	margin:1px auto;
+	padding:auto;
+	box-sizing:border-box;
+}
+table,th,td {
+	padding:20px;
+	}
+th,td {
+	border:1px solid steelblue;
+	border-radius:10px;
+	}
+td:hover{
+background-color:cornflowerblue;
+	}
+th:hover{
+background-color:cornflowerblue;
+	}
+body{
+background-color:ghostwhite;}
+colgroup{
+	background-color:beige;}
+caption{
+	vertical-align:text-top;
+}
